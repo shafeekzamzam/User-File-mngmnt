@@ -14,7 +14,7 @@
 return array(
    'db' => array(
         'driver'            =>  'Pdo',
-        'dsn'               => 'mysql:dbname=kleindevsql1;host=localhost',
+        'dsn'               => 'mysql:dbname=userdb;host=localhost',
         'username'          => 'root',
         'password'          => '',
         'driver_options'    => array(

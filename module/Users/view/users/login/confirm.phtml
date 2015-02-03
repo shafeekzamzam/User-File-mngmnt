@@ -1,0 +1,13 @@
+<section class="login-confirm">
+    <h2>Login Successfull</h2>
+    <p>Welcome! <?php echo $this->user_email; ?></p>
+</section>
+
+<a href="<?php echo $this->url('users/user-manager');?>">User manager</a> | 
+<a href="<?php echo $this->url('users/upload-manager');?>">upload manager</a>
+
+<section><a href="<?php  echo $this->url(NULL, array(
+            'controller' => 'Login',
+            'action' => 'logout'
+        ));?>">logout</a>
+       </section>
